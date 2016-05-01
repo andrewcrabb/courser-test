@@ -4,25 +4,84 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
     <title>Boostrap Starter Page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
-<body>
+  <body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <!-- Brand -->
+          <div class="navbar-brand">
+            <a href="index.html"><h1>
+              Food, LLC</h1>
+            </a>
+          </div>
+          <!-- Collapsable nav button -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+        </div>
+        <!-- Collapsable nav items -->
+        <div class="visible-xs">
+          <div id="collapsable-nav" class="collapse navbar-collapse ">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#chicken">Chicken</a>
+              </li>
+              <li>
+                <a href="#beef">Beef</a>
+              </li>
+              <li>
+                <a href="#sushi">Sushi</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    </header>
 
-  <h1>Hello Coursera!</h1>
+      <div id="main-content" class="container">
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
+    <h1 class="text-center our-menu">
+    Our Menu
+    </h1>
+    <section class="col-xs-12 main-content">
+    <h2 id='chicken'>Chicken</h2>
+    <p>
+Pommy ipsum bargain Betty Kate and Will nuthouse morris dancers on't goggle box knee high to a grasshopper i'll be a monkey's uncle, meat and two veg have a gander rubbish mince pies nigh smeg, flip flops lost her marbles through the dales picalilly nonsense down the local. Chips it's nicked bag egg's old boy a total jessie rambunctious, a reet bobbydazzler alright duck. Nosh therewith black cab chaps pulled out the eating irons well fit, lad bit of alright Essex girls have a bash. Wedding tackle balderdash down South scally brainbox pezzy little twiglets cor blimey' clock round the earhole, numpty brainbox spam fritters meat and two veg roast beef unhand me sir, any road, best be off easy peasy accordingly golly gosh round our gaff double dutch.
+</p>
+<p>
+Amelia Pond 221B Baker Street posh nosh pezzy little 221B Baker Street nowt, pezzy little the dog's dinner trouble and strife dignified fork out bloke, warts and all driving a mini well fit brown sauce. Have a butcher's at this argy-bargy pillock big light round our gaff pie-eyed cottage pie bow ties are cool challenge you to a duel, cornish pasty easy peasy alright geezer pie-eyed on a stag do on the pull middle class. Football sod's law shepherd's pie flog gobsmacked, the lakes tosser. Scarper done up like a kipper laughing gear, 10 pence mix.
+</p>
+    <h2 id='beef'>Beef</h2>
+    <p>
+    Cupcake ipsum dolor sit. Amet wafer jelly-o cupcake chocolate sweet chupa chups danish. Marzipan sweet roll jujubes fruitcake lemon drops lollipop. Candy canes marshmallow chocolate bar marzipan tart lollipop gummi bears chupa chups croissant. Liquorice wafer oat cake muffin. Soufflé lemon drops caramels. Lollipop danish oat cake tiramisu brownie cotton candy sweet cake candy canes. Candy fruitcake cake liquorice sugar plum sugar plum lollipop. Tootsie roll wafer powder chupa chups cake. Pie dragée sesame snaps cake sweet dragée toffee icing. Cake powder chocolate cake. Dragée marzipan candy canes soufflé liquorice candy canes. Sesame snaps wafer gummies cake tootsie roll. Biscuit bear claw bear claw tart.
+    </p>
+    <p>
+Gummies macaroon apple pie gingerbread liquorice macaroon marshmallow toffee chocolate. Bear claw gummi bears muffin gummies jujubes powder. Chupa chups toffee cotton candy danish gummies wafer gingerbread. Liquorice wafer candy pastry. Caramels dessert ice cream brownie fruitcake cotton candy. Chupa chups chocolate bar marzipan. Topping brownie cupcake. Macaroon danish donut oat cake powder lemon drops cake. Croissant danish brownie muffin chupa chups. Topping marshmallow fruitcake lemon drops cheesecake. Powder halvah cake jelly pastry toffee. Gummies jelly beans liquorice. Macaroon lollipop bonbon.
+</p>
+<h2 id='sushi'>Sushi</h2>
+<p>
+Listen. Strange women lying in ponds distributing swords is no basis for a system of government. Supreme executive power derives from a mandate from the masses, not from some farcical aquatic ceremony. 
+</p>
+<p>
+Burn her! Well, I didn't vote for you. Ah, now we see the violence inherent in the system! Shh! Knights, I bid you welcome to your new home. Let us ride to Camelot! Ah, now we see the violence inherent in the system!  Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods. You don't frighten us, English pig-dogs! Go and boil your bottoms, sons of a silly person! I blow my nose at you, so-called Ah-thoor Keeng, you and all your silly English K-n-n-n-n-n-n-n-niggits!
+</p>
+
+
+</h2>
+    </section>
+    </div>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
